@@ -1,5 +1,5 @@
 # innocent-wednesday.github.io
-<DOTYPE!html>
+<!DOCTYPE html>
 <html>
   <head>
     
