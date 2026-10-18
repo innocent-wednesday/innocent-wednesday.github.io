@@ -1,6 +1,6 @@
 body{
     background-image: 
-        url("/jacket.png");
+        url("./jacket.png");
     width:100%;
     background-size: cover;
 }
