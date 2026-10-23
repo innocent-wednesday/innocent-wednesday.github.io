@@ -1,3 +1,15 @@
+@font-face {
+    font-family: "Downloaded";
+    src: url("./IBMPlexSansJP-ExtraLight.ttf");
+}
+
+*{
+    list-style:none;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Downloaded";
+    color: rgba(0,0,0,0.7);
+}
 body{
     background-image: 
         url("./jacket.png");
@@ -6,7 +18,53 @@ body{
 }
 
 .content{
+    width: 100%;
     max-width: 400px;
-    text-align: center;
     background-color: rgba(255,255,255,0.5);
+    margin: 0 auto;
+    padding:20px;
+
+}
+#title{
+    margin-bottom: 60px;
+}
+h1{
+    text-align: center;
+}
+.rev{
+    float:right;
+}
+
+.section{
+    margin: 40px 0px;
+}
+.hidden{
+    background-color: black;
+    color: transparent;
+}
+
+.service_box{
+    width:100%;
+    height: 100px;
+    background-color: rgba(255,255,255,0.3);
+    border: 1px white solid;
+    border-radius: 15px;
+    margin: 10px 0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.service_box:hover{
+    background-color: white;
+}
+
+.service_name{
+    font-size: 20px;
+}
+
+
+.icon{
+    height:50%;
+    width:50%;
 }
